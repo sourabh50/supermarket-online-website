@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.f-fmly{
+      font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+      margin:0;
+}
+
+.bg1 {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1515706886582-54c73c5eaf41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+      
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      margin-top: -20px;
+}
+
+.bg3{
+      background-color:whitesmoke;
+}
+
+.bg4{
+      margin-left: 16.2%;
+}
+
+.bg5{
+      display: inline-block;
+      position: fixed !important;
+      background-color: whitesmoke;
+      height: 100vh;
+      border-right: 2px solid gray;
+}
+
+.bg6{
+      transition: 1s;
+}
+.bg6:hover{
+      transform: scale(1.05);
+}
+
+.contact-us li{
+      display: inline-block;
+}
+
+.bg7{
+      background-color: whitesmoke;
+}
+
+@media only screen and (min-width : 992px){
+      .nav1{
+            display: none;
+      }
+}
+
+@media only screen and (max-width : 992px){
+      .bg5{
+            display: none;
+      }
+      .bg4{
+            margin-left: 0;
+      }
+}
+
+/* .navbar {
+      background: rgba(0, 0, 0, 0.8) !important;
+}
+ */
+.d-flex-center{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 80px);
+}
+
+.d-flex{
+      display: flex;
+}
+
+.d-flex-center h3{
+      font-size: 35px;
+      font-weight: bold;
+}
+
+.white{
+      color: white;
+      font-style: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 80px;
+}
+
+
+.td1{
+      vertical-align: inherit !important;
+}
+/* .navbar-brand{
+      color: white;
+} */
+
+
+
+.wrap{
+      width: max-content;
+  }
+  .typing{
+      overflow:hidden;
+      font-size: 100px;
+      white-space: nowrap;
+      border-right: 1px solid black;
+      padding-right: 5px;
+      animation: typing 2s steps(20) infinite alternate, 
+                  blink 0.7s infinite;
+
+  }
+  @keyframes typing{
+      0%{
+          width: 0%;
+          visibility: hidden;
+      }
+      100%{
+          width:100%;
+      }
+  }
+  @keyframes blink{
+      50%{
+          border-color:transparent;
+      }
+      100%{
+          border-color: black;
+      }
+  }
+
+
+  /* ----- */
+/* 
+  div#carousel-example-generic {
+      position:relative;
+  }
+  
+  div.form-group {
+      width: 100%;
+      position:absolute;
+      z-index:9999999;
+      top:20px; /* change to whatever you want */
+      /* left:10px; /* change to whatever you want */
+      /* right:auto; change to whatever you want */
+      /* bottom:auto; change to whatever you want */
+  /* } */ 
+  
