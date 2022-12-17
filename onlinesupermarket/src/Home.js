@@ -36,6 +36,10 @@ export default function Home() {
                     </div>
                 </div>
                 </div> */}
+
+                
+            
+          <input type="text" placeholder='Search'></input>
           
 
             <div className='bg3'>
